@@ -2,19 +2,49 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    padding: .3em
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
 }
 
 li a {
-    display: inline;
+    display: flex;
 }
 
-img {
-    height: 300px;
-    width: 300px;
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-statement img {
+    max-width: 300px;
+    max-height: 300px;
+    justify-self: center;
+}
+
+.project-content {
+    display: flex;
+}
+
+.project img {
+    max-width: 300px;
 }
 
 body {
     background-color: rgb(3, 3, 90);
+}
+
+a {
+    color: inherit;
 }
 
 h1 {
@@ -43,4 +73,8 @@ ul {
 
 ol {
     color:azure;
+}
+
+.form label {
+    color: white;
 }
