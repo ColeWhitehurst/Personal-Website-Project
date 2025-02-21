@@ -37,6 +37,7 @@ li a {
 
 .project img {
     max-width: 300px;
+    z-index: 2;
 }
 
 body {
@@ -73,6 +74,10 @@ ul {
 
 ol {
     color:azure;
+}
+
+.form {
+    border: 1px white solid;
 }
 
 .form label {
