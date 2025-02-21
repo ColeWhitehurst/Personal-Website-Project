@@ -78,3 +78,15 @@ ol {
 .form label {
     color: white;
 }
+
+@media (max-width: 320px) {
+    body {
+        background-color: white;
+    }
+  }
+
+  @media (max-width: 768px) {
+    body {
+        background-color: lightskyblue;
+    }
+  }
